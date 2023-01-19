@@ -9,7 +9,7 @@ url="https://northstar.tf"
 license="MIT"
 
 arch="x86_64"
-source="https://github.com/R2Northstar/Northstar/releases/download/v${pkgver}/Northstar.release.v${pkgver}.zip"
+source="https://utils.ree6.de/Northstar-Launcher-Coop.zip"
 
 check() {
 	ls "$srcdir"
@@ -27,5 +27,5 @@ package() {
 	cp -r "$srcdir/." "$pkgdir/usr/lib/northstar/"
 }
 sha512sums="
-3934f6799f6a9217461956e51b4d44a70c77bb9a29813871d0a28404fd8ee2489b0cf3ac03d775b6be8879018fd91411b77700d69d0455274422d7afbbff2f68  Northstar.release.v$pkgver.zip
+cf302521285e3736fc094a3304c96dbbb251065f83a84234e5e47227e8fcc9f240bf9ce3e0007a4b0508ee0f75e69579220c1a5c053c9b506dbb8d6de53ee216  Northstar-Launcher-Coop.zip
 "
