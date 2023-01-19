@@ -9,7 +9,7 @@ url="https://northstar.tf"
 license="MIT"
 
 arch="x86_64"
-source="https://utils.ree6.de/Northstar-Launcher-Coop.zip"
+source="https://www.github.com/DxsSucuk/northstar-dedicated/releases/download/1.0.0/Northstar-Launcher-Coop.zip"
 
 check() {
 	ls "$srcdir"
