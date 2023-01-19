@@ -28,7 +28,7 @@ jobs:
         with:
           images: prestischmesti/northstar-coop
 
-      - name: Build and push Docker image
+      - name: Build and push Image
         uses: docker/build-push-action@v3.3.0
         with:
           context: .
